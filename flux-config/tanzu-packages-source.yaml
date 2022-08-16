@@ -8,5 +8,5 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/beyondelastic/gitops-tanzu-packages
+  url: https://github.com/mtritabaugh/gitops-tanzu-packages
 

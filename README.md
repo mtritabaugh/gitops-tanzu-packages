@@ -1,5 +1,9 @@
 # GitOps with FluxCD and Tanzu Packages
 
+# This is a fork of the original project. The following design changes have been made:
+Modified for TKGm. Assumes kapp-controller, package repo, etc are already running in the cluster.
+Uses SecretGenerator to create package secret. data values directory removed and files moved into their respective package dir.
+
 This repo can be used to deploy Tanzu Packages in a GitOps fashion. Read the following blog post for instructions on how to use the repo and its content:
 
 https://beyondelastic.com/2022/06/08/gitops-with-fluxcd-and-tanzu-packages/
